@@ -1,0 +1,10 @@
+/clientnode_modules/
+.env
+/build
+/dist
+/coverage
+package-lock.json
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
