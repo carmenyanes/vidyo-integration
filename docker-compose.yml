@@ -12,11 +12,11 @@ services:
       - db
 
   web:
-    build: ./client
+    build: ./web
     ports: 
       - "3000:3000"
     volumes: 
-      - ./client:/user/src/app
+      - ./web:/user/src/app
     depends_on: 
       - server
 
